@@ -1,1 +1,14 @@
+/* Base Styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header h1 {
+  font-size: 'Playball', cursive;
+  font-size: 75px;
+}
