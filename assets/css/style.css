@@ -1,3 +1,5 @@
+/* https://www.color-hex.com/color-palette/15915 */
+
 /* Base Styles */
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -8,7 +10,72 @@ img {
 }
 
 /* Header */
+header {
+  height: 300px;
+}
+
 header h1 {
-  font-size: 'Playball', cursive;
+  font-family: 'Playball', cursive;
   font-size: 75px;
+  color: #c488cc;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 50px 80px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c488cc;
+}
+
+header nav ul li a:hover {
+  color: #e0c2ff;
+}
+
+/* Note */
+#note {
+  padding: 20px 0;
+}
+
+#note h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 55px;
+}
+
+#note h2 span {
+  font-family: "Playball", cursive;
+  color: #c488cc;
+}
+
+#note p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.signature {
+  padding: 15px 0;
+}
+
+.signature p {
+  font-size: 20px;
+}
+
+.signature h3 {
+  font-family: "Playball", cursive;
+  font-size: 45px;
+}
+
+/* Highlights */
+#highlights h2 {
+  font-size: 55px;
+}
+
+#highlights p {
+  font-size: 20px;
+  line-height: 32px;
 }
