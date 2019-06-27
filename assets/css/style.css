@@ -1,8 +1,7 @@
-/* https://www.color-hex.com/color-palette/15915 */
-
 /* Base Styles */
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #0b0b0b;
 }
 
 img {
@@ -10,31 +9,32 @@ img {
 }
 
 /* Header */
-header {
+#header {
   height: 300px;
 }
 
 header h1 {
   font-family: 'Playball', cursive;
   font-size: 75px;
-  color: #c488cc;
+  color: #b8428f;
+  padding-bottom: 15px;
 }
 
 header nav ul li {
   display: inline-block;
   list-style: none;
-  padding: 50px 80px;
 }
 
 header nav ul li a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  color: #c488cc;
+  color: #b8428f;
+  padding-left: 20px;
 }
 
 header nav ul li a:hover {
-  color: #e0c2ff;
+  color: #ddcd9d;
 }
 
 /* Note */
@@ -43,13 +43,12 @@ header nav ul li a:hover {
 }
 
 #note h2 {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 55px;
 }
 
 #note h2 span {
   font-family: "Playball", cursive;
-  color: #c488cc;
+  color: #b8428f;
 }
 
 #note p {
@@ -71,6 +70,14 @@ header nav ul li a:hover {
 }
 
 /* Highlights */
+#highlights {
+  padding: 20px;
+}
+
+.post {
+  padding-bottom: 25px;
+}
+
 #highlights h2 {
   font-size: 55px;
 }
@@ -78,4 +85,36 @@ header nav ul li a:hover {
 #highlights p {
   font-size: 20px;
   line-height: 32px;
+}
+
+/* footer */
+footer {
+  height: 150px;
+  padding: 20px;
+  border: 2px solid purple;
+}
+
+footer p {
+  font-size: 16px;
+  width: 50%;
+}
+
+footer nav {
+  width: 30%;
+  border: 2px solid red;
+}
+
+footer nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: #b8428f;
+}
+
+footer nav ul li a:hover {
+  color: #d77fd5;
 }
