@@ -15,10 +15,6 @@ header h1 {
   color: #b8428f;
 }
 
-header nav {
-  float: right;
-}
-
 header nav ul li {
   display: inline-block;
   list-style: none;
@@ -68,14 +64,6 @@ header nav ul li a:hover {
 }
 
 /* Highlights */
-#highlights {
-  padding: 20px;
-}
-
-.post {
-  padding-bottom: 25px;
-}
-
 #highlights h2 {
   font-size: 55px;
 }
