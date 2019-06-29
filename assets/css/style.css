@@ -9,6 +9,11 @@ img {
 }
 
 /* Header */
+header {
+  background-color: #ddcd9d;
+  padding: 20px;
+}
+
 header h1 {
   font-family: 'Playball', cursive;
   font-size: 75px;
@@ -28,12 +33,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #ddcd9d;
+  color: #d77fd5;
 }
 
 /* Note */
 #note {
   padding: 20px 0;
+  height: 600px;
 }
 
 #note h2 {
@@ -64,19 +70,34 @@ header nav ul li a:hover {
 }
 
 /* Highlights */
-#highlights h2 {
-  font-size: 55px;
+#highlights {
+  border: 2px solid red;
+  height: 500px;
 }
 
-#highlights p {
-  font-size: 20px;
-  line-height: 32px;
+#highlights h2 {
+  font-size: 55px;
+  padding-bottom: 25px;
+}
+
+#highlights h3 {
+  font-size: 45px;
+  font-family: 'Playball', cursive;
+}
+
+#highhlights h4 {
+  font-size: 35px;
+}
+
+#highlights img {
+  padding-bottom: 30px;
 }
 
 /* footer */
 footer {
   width: 100%;
   float: left;
+  background-color: #ddcd9d;
 }
 
 footer p {
