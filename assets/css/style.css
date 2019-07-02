@@ -37,11 +37,6 @@ header nav ul li a:hover {
 }
 
 /* Note */
-#note {
-  padding: 20px 0;
-  height: 600px;
-}
-
 #note h2 {
   font-size: 55px;
 }
@@ -54,10 +49,6 @@ header nav ul li a:hover {
 #note p {
   font-size: 20px;
   line-height: 32px;
-}
-
-.signature {
-  padding: 15px 0;
 }
 
 .signature p {
@@ -123,8 +114,13 @@ footer nav ul li a:hover {
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
+  header {
+    height: 200px;
+  }
+
   #note {
     height: 100%;
+    padding-bottom: 20px;
   }
 
   #highlights {
@@ -133,7 +129,7 @@ footer nav ul li a:hover {
 
   #highlights .post {
     width: 100%;
-    padding: 15px 0px;
+    padding: 25px 0px;
   }
 
   #highlights img {
@@ -141,7 +137,31 @@ footer nav ul li a:hover {
   }
 
   footer {
+    height: 20%;
+  }
+
+  footer p {
+    width: 100%;
+  }
+}
+
+/* Tablet Version */
+@media only screen and (max-width: 1000px) {
+  #note {
+    height: 100%;
+    padding: 15px 0;
+  }
+
+  #highlights {
+    height: 100%;
     border: 2px solid red;
-    height: 25%;
+  }
+
+  #highlights .post {
+    padding: 25px 0px;
+  }
+
+  #highlights img {
+    padding-bottom: 25px;
   }
 }
