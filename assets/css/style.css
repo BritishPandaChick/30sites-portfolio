@@ -37,6 +37,10 @@ header nav ul li a:hover {
 }
 
 /* Note */
+#note {
+  padding: 20px;
+}
+
 #note h2 {
   font-size: 55px;
 }
@@ -63,6 +67,7 @@ header nav ul li a:hover {
 /* Highlights */
 #highlights {
   height: 600px;
+  padding: 20px;
 }
 
 #highlights h2 {
@@ -154,7 +159,6 @@ footer nav ul li a:hover {
 
   #highlights {
     height: 100%;
-    border: 2px solid red;
   }
 
   #highlights .post {
